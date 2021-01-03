@@ -190,3 +190,7 @@ ul div{
 .pop-out-badge:hover{
     transform: scale(1.15);
 }
+
+.link-hover:hover{
+    text-decoration: underline;
+}
