@@ -190,8 +190,3 @@ ul div{
 .pop-out-badge:hover{
     transform: scale(1.15);
 }
-.icon{
-    width: 3%;
-    height: 3%;
-    position: fixed;
-}
