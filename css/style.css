@@ -205,3 +205,89 @@ ul div{
 .link-hover:hover{
     text-decoration: underline;
 }
+
+.container-box{
+    background-color: var(--part-two);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    justify-content: flex-start;
+    /* align-self: flex-end; */
+}
+.box{
+    background-color: #d0f5e2;
+    height: 267px;
+    width: 400px;
+    margin: 17px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    text-align: center;
+    justify-content: space-around;
+    /* align-items: center; */
+    box-shadow: 4px 5px 8px #484848;
+}
+
+.box h2{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+/* .box p{
+    display: inline-block;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+} */
+
+.box a{
+    width: 150px;
+    height: 40px;
+    padding: 7.5px;
+    position: relative;
+    margin: 0.3rem;
+}
+.box1 a{
+    display: inline-block;
+    bottom: 5px;
+}
+.box2 a{
+    display: inline-block;
+    bottom: 5px;
+}
+.box3 a{
+    display: inline-block;
+    bottom: 5px;
+}
+.box4 a{
+    display: inline-block;
+    bottom: -16px;
+}
+
+.box5 a{
+    display: inline-block;
+    bottom: -38px;
+}
+.box6 a{
+    display: inline-block;
+    bottom: -32px;
+}
+.box7 a{
+    display: inline-block;
+    bottom: -52px;
+}
+
+.pop-out-box {
+	transition: all 0.4s ease-in-out;
+}
+.pop-out-box:hover {
+	transform: scale(1.05);
+}
+
+@media (max-width: 900px)
+{
+    .container-box{
+        justify-content: center;
+    }
+}
