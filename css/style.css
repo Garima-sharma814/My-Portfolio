@@ -277,6 +277,28 @@ ul div{
     display: inline-block;
     bottom: -52px;
 }
+.blog-box1 a{
+    display: inline-block;
+    bottom: -3px;
+}
+.blog-box2 a{
+    display: inline-block;
+    bottom: -24px;
+}
+.blog-box3 a{
+    display: inline-block;
+    bottom: -8px;
+}
+.blog-box4 a{
+    display: inline-block;
+    bottom: 8px;
+}
+
+.blog-box5 a{
+    display: inline-block;
+    bottom: -38px;
+}
+
 
 .pop-out-box {
 	transition: all 0.4s ease-in-out;
@@ -285,9 +307,10 @@ ul div{
 	transform: scale(1.05);
 }
 
-@media (max-width: 900px)
+@media (max-width: 2000px)
 {
     .container-box{
         justify-content: center;
     }
 }
+
